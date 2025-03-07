@@ -54,7 +54,7 @@ Important Considerations:
 • Versioning: Implement a strategy to manage package versions within your manifest files to maintain consistency across releases. [^2] [^4] [^5]  
 • Testing: Set up a testing process to verify that the generated Winget packages install correctly on target systems before pushing to your repository. [^1] [^2] [^4]  
 
-Generative AI is experimental.
+This was generated with Google Search. Generative AI is experimental.
 
 [^1]: https://github.com/microsoft/winget-create
 [^2]: https://techcommunity.microsoft.com/blog/educatordeveloperblog/wingetcreate-keeping-winget-packages-up-to-date/4037598
