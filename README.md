@@ -4,19 +4,19 @@ To set up a Winget automation pipeline in GitHub, you need to create a GitHub Ac
 
 ## Key steps:
 
-### Install WingetCreate: [^1] [^3] [^4]  
+### Install WingetCreate:
 - In your GitHub Actions workflow, add a step to install the "wingetcreate" tool using the appropriate package manager for your chosen operating system. [^1] [^3] [^4]  
 
-### Create a Manifest File: [^3] [^4]  
+### Create a Manifest File:
 - Within your repository, create a .appxmanifest file (or a similar format depending on the application) containing the necessary information for your Winget package (name, publisher, version, etc.). [^3] [^4]  
 
-### Generate Winget Manifest: [^1] [^2] [^4]  
+### Generate Winget Manifest:
 - Use a GitHub Actions step with the "wingetcreate" command to generate the Winget manifest file from your .appxmanifest file, specifying any required options like the target repository URL. [^1] [^2] [^4]  
 
-### Authentication for Private Repositories: [^2] [^4]  
+### Authentication for Private Repositories:
 - Create a GitHub secret to store your personal access token (PAT) needed to push to a private repository. [^2] [^4]  
 
-### Push to Repository: [^2] [^3] [^4]  
+### Push to Repository:
 - Add a step in your workflow to push the generated Winget manifest to your desired repository using the stored PAT. [^2] [^3] [^4]  
 
 Example GitHub Actions Workflow:
@@ -48,7 +48,7 @@ jobs:
           git push origin main
 ```
 
-Important Considerations: [^2] [^4]  
+Important Considerations:
 
 • Access Level: Ensure your GitHub Actions runner has the required permissions to access your private repositories and execute the necessary commands. [^2] [^4]  
 • Versioning: Implement a strategy to manage package versions within your manifest files to maintain consistency across releases. [^2] [^4] [^5]  
