@@ -71,4 +71,8 @@ Important Considerations: [2, 4]
 
 Generative AI is experimental.
 
-[1] https://github.com/microsoft/winget-create[2] https://techcommunity.microsoft.com/blog/educatordeveloperblog/wingetcreate-keeping-winget-packages-up-to-date/4037598[3] https://github.com/microsoft/winget-create/blob/main/pipelines/azure-pipelines.release.yml[4] https://learn.microsoft.com/en-us/shows/open-at-microsoft/wingetcreate-keeping-winget-packages-up-to-date[5] https://github.com/marketplace/actions/install-winget[-] https://zenn.dev/akari0519/articles/50d7922ecc69ec
+[^1] https://github.com/microsoft/winget-create
+[^2] https://techcommunity.microsoft.com/blog/educatordeveloperblog/wingetcreate-keeping-winget-packages-up-to-date/4037598
+[^3] https://github.com/microsoft/winget-create/blob/main/pipelines/azure-pipelines.release.yml
+[^4] https://learn.microsoft.com/en-us/shows/open-at-microsoft/wingetcreate-keeping-winget-packages-up-to-date
+[^5] https://github.com/marketplace/actions/install-winget[-] https://zenn.dev/akari0519/articles/50d7922ecc69ec
