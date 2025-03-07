@@ -1,6 +1,6 @@
 # Winget GitHub Integration / Auto-Package Pipeline Setup Instructions
 
-To set up a Winget automation pipeline in GitHub, you need to create a GitHub Actions workflow that utilizes the "wingetcreate" tool to generate Winget manifests, then automatically pushes them to your desired repository, leveraging GitHub secrets to securely store sensitive information like API tokens for private repositories. [^1], [^2] [^3]  
+To set up a Winget automation pipeline in GitHub, you need to create a GitHub Actions workflow that utilizes the "wingetcreate" tool to generate Winget manifests, then automatically pushes them to your desired repository, leveraging GitHub secrets to securely store sensitive information like API tokens for private repositories. [^1] [^2] [^3]  
 
 ## Key steps:
 
